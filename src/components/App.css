@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+.app {
+    height: 90vh;
+    width: 90vw;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .cards-container{
+    width: 900px;
+    height: 700px;
+    
+  }
+  
+  .card {
+    display: inline-block;
+    margin: 5px;
+    height: calc(130px - 10px);
+    width: calc(180px - 10px);
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: scale(0.98);
+  }
+  
+  .card-image {
+    height: calc(130px - 10px);
+    width: calc(180px - 10px);
+  }
