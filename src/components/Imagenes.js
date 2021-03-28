@@ -12,85 +12,84 @@ import src10 from '../../Imagenes/milan.jpg';
 const images = [
   {
     src: src1,
-    player: 'Drew Brees'
+    player: 'Drew Brees',
   },
   {
     src: src1,
-    player: 'Drew Brees'
+    player: 'Drew Brees',
   },
   {
     src: src2,
-    player: 'heat'
+    player: 'heat',
   },
   {
     src: src2,
-    player: 'heat'
+    player: 'heat',
   },
   {
     src: src3,
-    player: 'petapa'
+    player: 'petapa',
   },
   {
     src: src3,
-    player: 'petapa'
+    player: 'petapa',
   },
   {
     src: src4,
-    player: 'realM'
+    player: 'realM',
   },
   {
     src: src4,
-    player: 'realM'
+    player: 'realM',
   },
   {
     src: src5,
-    player: 'saints'
+    player: 'saints',
   },
   {
     src: src5,
-    player: 'saints'
+    player: 'saints',
   },
   {
     src: src6,
-    player: 'yankees'
+    player: 'yankees',
   },
   {
     src: src6,
-    player: 'yankees'
+    player: 'yankees',
   },
   {
     src: src7,
-    player: 'judge'
+    player: 'judge',
   },
   {
     src: src7,
-    player: 'judge'
+    player: 'judge',
   },
   {
     src: src8,
-    player: 'chealse'
+    player: 'chealse',
   },
   {
     src: src8,
-    player: 'chealse'
+    player: 'chealse',
   },
   {
     src: src9,
-    player: 'cristiano'
+    player: 'cristiano',
   },
   {
     src: src9,
-    player: 'cristiano'
+    player: 'cristiano',
   },
   {
     src: src10,
-    player: 'milan'
+    player: 'milan',
   },
   {
     src: src10,
-    player: 'milan'
+    player: 'milan',
   },
 
 ];
-
-export { images } 
+export { images };

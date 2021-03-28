@@ -5,9 +5,10 @@
         "node": true
     },
     "extends": [
-        "plugin:react/recommended",
+        //"plugin:react/recommended",
         "airbnb",
-        "prettier"
+        "prettier",
+        "eslint:recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -17,17 +18,18 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "prettier"
     ],
     "rules": {
-        "extends": ["airbnb","pretter"],
-        "plugins": ["prettier"],
+        "no-extra-semi":"off",
+        "no-unexpected-multiline":"warn",
         "semi":["error","always"],
-        "quotes":["error", "doubles"],
+        "@typescript-eslint/quotes":["error", "single"],
+        "no-console": ["error"],
+        "no-unused-vars": ["error"],
         "windows": "\r\n",
-       // "allowEmptyCatch": true,
-        "no-unused-vars": "warn",
         "prettier/prettier": "error",
-        "no-console":"off"
+        "no-obj-calls": "warn"
     }
 }
